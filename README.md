@@ -1,49 +1,43 @@
 # DudeSecurity - Python
+
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec)
 
+The Dude project aims to create a Python library focused on cybersecurity and monitoring of servers and workstations. In this repository, we will cover the following objectives:
 
-O projeto Dude tem como objetivo a criação de uma library para python ligado a segurança cibernética e monitoramento de servidores e estações datrabalho.
-Neste repositório, iremos abranger os seguintes objetivos:
+- Network security and monitoring.
+- Server security and monitoring.
+- Application security and monitoring.
+- Security for workstations and personal computers.
 
-  - Segurança e monitoramento de redes.
-  - Segurança e monitoramento de servidores.
-  - Segurança e monitoramento de aplicações.
-  - Segurança de estações de trabalho e computadores pessoais.
+In this project, we use the following logic: the master branch will always contain the most up-to-date version. Other branches will provide code based on previous versions.
 
-Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará presente a versão mais atual. Nas outras branchs, estarão disponibilizadas o código de acordo com a versão.
+## Tools included in the current version:
 
-# Ferramentas presentes na versão atual:
+- Open port scanner within a predefined range.
+- Web application monitoring through web scraping.
+- Domain monitoring.
+- API application monitoring.
+- Webhook implementation for updates.
+- Text encoding and decoding using base64.
+- Port scanning for vulnerability exploitation.
+- Wordlist generator for brute-force attacks.
 
-  - Scanner de portas abertas a partir de um range pré definido.
-  - Monitoramento de aplicações WEB através de webscrapping.
-  - Monitoramento de dominios.
-  - Monitoramento de aplicações APIS.
-  - Implementação de WEBHOOK para atualizações.
-  - Codificação e decodificação de textos usando base64.
-  - Varredura de portas para exploração de vunerabilidades.
-  - Gerador de WorldList para ataques brute-force.
+> Keep in mind that this repository is and will always be open to new opinions and perspectives. So, when requesting an update, remember that this library is meant to help and is not an entitlement. Always be respectful and courteous.
 
-> Lembrando que, o repositório está e sempre estará aberto a novas opiniões
-> e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
-> que esta lib é uma ajuda, não um direito tenha educação e simpatia.
+## Ideas for possible future updates:
 
-# Ideias para possiveis atualizações:
+- Website screenshot capture using web scraping.
 
-- Captura de tela de website por webscrapping
+### How to install
 
-### Como instalar
-
-Para usar esta library com o Python é bem simples, basta instala-la usando o gerenciador de pacotes pipy , com o seguinte comando:
+Installing this library with Python is simple. Just install it using the PyPi package manager with the following command:
 
 ```sh
 $ pip install dudsec
 ```
 
-E após isto, importa-lo desta maneira:
+After that, you can import it like this:
 
-```sh
-import * from dudesec
+```python
+$ import * from dudesec
 ```
-### Nossa comunidade & documentação
-
-Comunidade: https://dudeproject.online
