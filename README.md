@@ -39,5 +39,5 @@ $ pip install dudsec
 After that, you can import it like this:
 
 ```python
-$ import * from dudesec
+import * from dudesec
 ```
